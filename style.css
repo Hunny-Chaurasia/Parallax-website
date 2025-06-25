@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times'Times New Roman', serif;
+    font-size: 30px;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('https://static.vecteezy.com/system/resources/previews/000/523/309/original/web-development-and-programming-coding-concept-seo-optimization-modern-web-design-on-laptop-screen-vector.jpg');
+    height: 1200px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.content {
+    height: fit-content;
+    /* Set a height for the content sections */
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(175, 76, 165, 0.3)
+}
+
+h1,
+h2 {
+    font-size: larger;
+    font-family: monospace;
+}
